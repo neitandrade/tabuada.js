@@ -1,6 +1,8 @@
 function tabuada() {
 
     var num = document.getElementById("number").value; // Obtenção do valor do número inserido pelo usuário
+    //value é uma propriedade que obtém o valor atual de um campo de entrada (input).
+
     var result = document.getElementById("table"); // Referência ao elemento HTML onde a tabuada será exibida
 
     result.innerHTML = ""; // Limpa o conteúdo anterior do elemento 'table'
